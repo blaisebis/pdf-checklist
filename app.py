@@ -146,5 +146,4 @@ def upload():
 def download(filename):
     return send_from_directory(".", filename, as_attachment=True)
 
-if __name__ == "__main__":
-    app.run(debug=True)
+
